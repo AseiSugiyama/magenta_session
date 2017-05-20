@@ -6,7 +6,7 @@ import tensorflow as tf
 from magenta.models.melody_rnn import melody_rnn_config_flags
 from magenta.models.melody_rnn import melody_rnn_model
 from magenta.models.melody_rnn import melody_rnn_sequence_generator
-import scripts.target as tgt
+import target as tgt
 
 
 FLAGS = tf.app.flags.FLAGS

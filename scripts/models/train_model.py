@@ -6,7 +6,7 @@ import magenta.models.melody_rnn.melody_rnn_train as mt
 from magenta.models.melody_rnn import melody_rnn_config_flags
 from magenta.models.shared import events_rnn_graph
 from magenta.models.shared import events_rnn_train
-import scripts.target as tgt
+import target as tgt
 
 
 def main(unused_argv):
